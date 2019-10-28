@@ -1,0 +1,29 @@
+# INSTRUCTIONS
+
+## Build
+
+```mvn clean package```
+
+## Execute
+
+```mvn exec:java```
+
+The format of the output is a table with the columns:
+
+1 - Position
+2 - Driver Code
+3 - Driver Name
+4 - Laps Completed
+5 - Total Race Time
+6 - Best Lap
+7 - Best Lap Time
+8 - Time difference to winner racer
+
+Followed by the best lap of the race in the format:
+
+1 - Hour
+2 - Driver Code
+3 - Driver Name
+4 - Best Lap
+5 - Best Lap Time
+6 - Average Lap Speed
